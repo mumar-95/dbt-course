@@ -1,0 +1,55 @@
+[0m20:53:43.261700 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024984B1F620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024986F43ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024986F43890>]}
+
+
+============================== 20:53:43.271380 | 2522f0db-fd30-4f11-8608-ea0a6e59119b ==============================
+[0m20:53:43.271380 [info ] [MainThread]: Running with dbt=1.11.7
+[0m20:53:43.272116 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Mduma\\.dbt', 'invocation_command': 'dbt init --skip-profile-setup airbnb', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:53:43.375499 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Mduma\.dbt
+[0m20:53:43.379608 [debug] [MainThread]: Starter project path: C:\Users\Mduma\Downloads\Downloaded files\DBT Project\dbt-course\.venv\Lib\site-packages\dbt\include\starter_project
+[0m20:53:43.398130 [info ] [MainThread]: 
+Your new dbt project "airbnb" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:53:43.400227 [debug] [MainThread]: Command `dbt init` succeeded at 20:53:43.400023 after 0.27 seconds
+[0m20:53:43.400745 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024987020050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249874E57F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024985E0AF10>]}
+[0m20:53:43.401210 [debug] [MainThread]: Flushing usage events
+[0m20:53:44.508582 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:55:24.773810 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D656A3F620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D658E73ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D658E73890>]}
+
+
+============================== 20:55:24.777526 | aeab0e64-5798-45ec-9014-1dc036898328 ==============================
+[0m20:55:24.777526 [info ] [MainThread]: Running with dbt=1.11.7
+[0m20:55:24.778216 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Mduma\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init --skip-profile-setup my_project', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:55:24.805116 [debug] [MainThread]: Starter project path: C:\Users\Mduma\Downloads\Downloaded files\DBT Project\dbt-course\.venv\Lib\site-packages\dbt\include\starter_project
+[0m20:55:24.815864 [info ] [MainThread]: 
+Your new dbt project "my_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:55:24.819353 [debug] [MainThread]: Command `dbt init` succeeded at 20:55:24.819182 after 0.26 seconds
+[0m20:55:24.819714 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D658E76B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D658F51130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D657D3ACF0>]}
+[0m20:55:24.820071 [debug] [MainThread]: Flushing usage events
+[0m20:55:25.939164 [debug] [MainThread]: An error was encountered while trying to flush usage events
